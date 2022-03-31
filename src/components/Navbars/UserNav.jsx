@@ -63,7 +63,7 @@ const UserNav = (props) => {
           justify={["center", "space-between", "flex-end", "flex-end"]}
           direction={{ base: "column", md: "row" }}
         >
-          <MenuItem to="/">Home</MenuItem>
+          {/* <MenuItem to="/">Home</MenuItem> */}
           {state.token ? (
             <>
               {state.is_superuser && <MenuItem to="/admin">Admin Panel</MenuItem>}
